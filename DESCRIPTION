@@ -1,11 +1,21 @@
 Package: CsawRun
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Wrapper to run csaw (Bioconductor package) as a command line program
+Version: 0.0.1
+Authors@R: person( "Stuart R", "Jefferys", email= "srjefferys@gmail.com",
+ role= c( "aut", "cre" ))
+Maintainer: Stuart R. Jefferys <srjefferys@gmail.com>
+Description: Provides a script to run csaw as a command line program, and a
+ library of code to support that.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Suggests: 
+    testthat,
+    covr,
+    spelling
+Imports: 
+    optparse,
+    utils
+Language: en-US
+RoxygenNote: 6.1.1
