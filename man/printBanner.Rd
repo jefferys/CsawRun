@@ -4,7 +4,7 @@
 \alias{printBanner}
 \title{Program welcome banner}
 \usage{
-printBanner()
+printBanner(opts)
 }
 \value{
 N/A
@@ -12,3 +12,4 @@ N/A
 \description{
 Prints a welcome banner to STDOUT when called.
 }
+\keyword{internal}

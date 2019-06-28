@@ -16,6 +16,7 @@ Suggests:
     spelling
 Imports: 
     optparse,
-    utils
+    utils,
+    checkmate
 Language: en-US
 RoxygenNote: 6.1.1

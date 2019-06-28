@@ -10,7 +10,13 @@
 #'
 #' @return N/A
 #' @export
+#' @examples
+#' \donttest{
+#' commandLine <- c( "--help" )
+#' csawRun( commandLine )
+#' }
 csawRun <- function( cli=commandArgs( trailingOnly= TRUE )) {
-  parseCli( cli )
-  printBanner()
+  opts <- parseCli( cli )
+  printBanner( opts )
+  readParamObj <- readParam( opts )
 }

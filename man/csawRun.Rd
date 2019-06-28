@@ -18,3 +18,9 @@ This is the main function that runs csaw. Intended to be called from an
 executable script and to recieve the command line parameters that script
 was called with. For the meaning of arguments, see parseCli().
 }
+\examples{
+\donttest{
+commandLine <- c( "--help" )
+csawRun( commandLine )
+}
+}

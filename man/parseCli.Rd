@@ -2,17 +2,18 @@
 % Please edit documentation in R/parseCli.R
 \name{parseCli}
 \alias{parseCli}
-\title{Parse options and arguments for running csaw}
+\title{Parse options (and arguments) for running csaw}
 \usage{
 parseCli(cli = commandArgs(trailingOnly = TRUE))
 }
 \arguments{
 \item{cli}{The command line arguments specifying how to run csaw. By
-default this is the trailing arguments from a script this is run by.}
+default this is the trailing arguments from a script this is run by.
+Any arguments are loaded into the appropriate option value.}
 }
 \value{
-The parsed cli object
+A list of options, by name.
 }
 \description{
-Parse options and arguments for running csaw
+Parse options (and arguments) for running csaw
 }

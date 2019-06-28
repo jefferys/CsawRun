@@ -2,6 +2,6 @@
 
 library("CsawRun")
 
-csawRun(
-  commandArgs( trailing= TRUE )
-)
+csawRun( cli= commandArgs( trailingOnly= TRUE ))
+
+sessionInfo()
